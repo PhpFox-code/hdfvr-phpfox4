@@ -1,0 +1,11 @@
+{
+    "id": "hdfvr_video_recorder",
+    "type": "product",
+    "name": "HDFVR Video Recorder",
+    "description": "HDFVR Video Recorder",
+    "version": "1.0",
+    "is_core": 0,
+    "icon": null,
+    "vendor": null,
+    "store_id": ""
+}

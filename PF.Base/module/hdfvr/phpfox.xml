@@ -1,0 +1,111 @@
+<module>
+	<data>
+		<module_id>hdfvr</module_id>
+		<product_id>hdfvr_video_recorder</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>0</is_menu>
+		<menu />
+		<phrase_var_name>module_hdfvr</phrase_var_name>
+		<version>1.0</version>
+		<author>n/a</author>
+		<vendor>http://www.hdfvr.com</vendor>
+		<description>HDFVR Video Recorder</description>
+		<apps_icon></apps_icon>
+	</data>
+	<setting_groups>
+		<name module_id="hdfvr" version_id="3.7.6" var_name="setting_group_general_hdfvr_settings">general_hdfvr_settings</name>
+	</setting_groups>
+	<settings>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_flip_image_horizontally" phrase_var_name="setting_hdfvr_flip_image_horizontally" ordering="18" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:5:"false";s:6:"values";a:2:{i:0;s:5:"false";i:1;s:4:"true";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_hide_play_button" phrase_var_name="setting_hdfvr_hide_play_button" ordering="19" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:5:"false";s:6:"values";a:2:{i:0;s:5:"false";i:1;s:4:"true";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_show_timer" phrase_var_name="setting_hdfvr_show_timer" ordering="16" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:4:"true";s:6:"values";a:2:{i:0;s:4:"true";i:1;s:5:"false";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_show_sound_bar" phrase_var_name="setting_hdfvr_show_sound_bar" ordering="17" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:4:"true";s:6:"values";a:2:{i:0;s:4:"true";i:1;s:5:"false";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_show_menu" phrase_var_name="setting_hdfvr_show_menu" ordering="15" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:4:"true";s:6:"values";a:2:{i:0;s:4:"true";i:1;s:5:"false";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_loopback_mic" phrase_var_name="setting_hdfvr_loopback_mic" ordering="14" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:5:"false";s:6:"values";a:2:{i:0;s:5:"false";i:1;s:4:"true";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_overlay_position" phrase_var_name="setting_hdfvr_overlay_position" ordering="13" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:2:"tr";s:6:"values";a:3:{i:0;s:2:"tr";i:1;s:2:"tl";i:2;s:3:"cen";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_countdown_timer" phrase_var_name="setting_hdfvr_countdown_timer" ordering="12" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:5:"false";s:6:"values";a:2:{i:0;s:5:"false";i:1;s:4:"true";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_disable_audio" phrase_var_name="setting_hdfvr_disable_audio" ordering="11" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:5:"false";s:6:"values";a:2:{i:0;s:5:"false";i:1;s:4:"true";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="integer" var_name="hdfvr_radius_corner" phrase_var_name="setting_hdfvr_radius_corner" ordering="9" version_id="3.7.6">0</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_show_fps" phrase_var_name="setting_hdfvr_show_fps" ordering="10" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:4:"true";s:6:"values";a:2:{i:0;s:4:"true";i:1;s:5:"false";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="integer" var_name="hdfvr_min_record_time" phrase_var_name="setting_hdfvr_min_record_time" ordering="6" version_id="3.7.6">5</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="string" var_name="hdfvr_menu_color" phrase_var_name="setting_hdfvr_menu_color" ordering="8" version_id="3.7.6">333333</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="string" var_name="hdfvr_background_color" phrase_var_name="setting_hdfvr_background_color" ordering="7" version_id="3.7.6">000000</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="drop" var_name="hdfvr_auto_play" phrase_var_name="setting_hdfvr_auto_play" ordering="5" version_id="3.7.6"><![CDATA[a:2:{s:7:"default";s:5:"false";s:6:"values";a:2:{i:0;s:5:"false";i:1;s:4:"true";}}]]></setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="integer" var_name="hdfvr_playback_buffer" phrase_var_name="setting_hdfvr_playback_buffer" ordering="4" version_id="3.7.6">1</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="integer" var_name="hdfvr_outgoing_buffer" phrase_var_name="setting_hdfvr_outgoing_buffer" ordering="3" version_id="3.7.6">60</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="string" var_name="hdfvr_languge_file" phrase_var_name="setting_hdfvr_languge_file" ordering="2" version_id="3.7.6">en.xml</setting>
+		<setting group="general_hdfvr_settings" module_id="hdfvr" is_hidden="0" type="string" var_name="hdfvr_rtmp_connectionstring" phrase_var_name="setting_hdfvr_rtmp_connectionstring" ordering="1" version_id="3.7.6">rtmp://your_media_server/hdfvr/_definst_</setting>
+	</settings>
+	<blocks>
+		<block type_id="0" m_connection="core.index-member" module_id="hdfvr" component="videoprofilebox" location="1" is_active="1" ordering="1" disallow_access="" can_move="1">
+			<title>Video Profile</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="core.index-member" module_id="hdfvr" component="videoprofilebox" location="1" is_active="1" ordering="1" disallow_access="" can_move="1">
+			<title>Video Profile</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="hdfvr" component="videoprofilebox" m_connection="" module="hdfvr" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="hdfvr" component="videoprofilebox" m_connection="" module="hdfvr" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="hdfvr" component="index" m_connection="hdfvr.index" module="hdfvr" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="hdfvr" component="index" m_connection="hdfvr.index" module="hdfvr" is_controller="1" is_block="0" is_active="1" />
+	</components>
+	<phrases>
+		<phrase var_name="admin_menu_settings" added="1483496636">Settings</phrase>
+		<phrase var_name="module_hdfvr" added="1483496636">description module here</phrase>
+		<phrase var_name="setting_group_general_hdfvr_settings" added="1483496636"><![CDATA[<title>General HDFVR Settings</title><info>General HDFVR Settings info</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_rtmp_connectionstring" added="1483496636"><![CDATA[<title>RTMP Connection String</title><info>The RTMP connection string to the hdfvr application on your media server</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_languge_file" added="1483496636"><![CDATA[<title>Language file</title><info>The name of the XML file containing words and phrases to be used in the video recorder interface</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_outgoing_buffer" added="1483496636"><![CDATA[<title>Outgoing Buffer</title><info>Specifies how long the buffer for the outgoing audio/video data can grow before Flash Player starts dropping frames. On a high-speed connection, buffer time will not affect anything because data is sent almost as quickly as it is captured and there is no need to buffer it. On a slow connection, however, there might be a significant difference between how fast Flash Player can capture audio and video data data and how fast it can be sent to the client, thus the surplus needs to be buffered. HDFVR will increase the value specified here as much as possible (if the buffer fills more than 90% of the available buffer, we double the available buffer) to prevent Flash Player from dumping the data in the buffer when it&#039;s full.</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_playback_buffer" added="1483496636"><![CDATA[<title>Playback Buffer</title><info>Specifies how much video time to buffer when (after recording a movie) you play it back
+
+Values: 1, 10,20,30,60,etc...</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_auto_play" added="1483496636"><![CDATA[<title>Auto Play</title><info>Weather the recorded video should play automatically after recording it or we should  wait for the user to press the PLAY button</info>]]></phrase>
+		<phrase var_name="false" added="1483496636">False</phrase>
+		<phrase var_name="true" added="1483496636">True</phrase>
+		<phrase var_name="setting_hdfvr_min_record_time" added="1483496636"><![CDATA[<title>Min Record Time</title><info>The minimum number of seconds a recording must be in length. The STOP button will be disabled until the recording reaches this length!</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_background_color" added="1483496636"><![CDATA[<title>Background Color</title><info>Color of background area inside the video recorder around the video area</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_menu_color" added="1483496636"><![CDATA[<title>Menu Color</title><info>The color of the lower area of the recorder containing the buttons and the scrub bar</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_radius_corner" added="1483496636"><![CDATA[<title>Radius Corner</title><info>The radius of the 4 corners of the video recorder
+
+values: 0 for no rounded corners, 4,8,16,etc...</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_show_fps" added="1483496636"><![CDATA[<title>Show FPS</title><info>Shows or hides the FPS counter</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_disable_audio" added="1483496636"><![CDATA[<title>Disable Audio</title><info>By default the application records audio and video. If you want to disable audio recording set this var to &#039;true&#039;.</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_countdown_timer" added="1483496636"><![CDATA[<title>Countdown Timer</title><info>Set to true if you want the timer to decrease from the upper limit (Max Recording Time) down to 0</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_overlay_position" added="1483496636"><![CDATA[<title>Overlay Position</title><info>Position of the overlay image mentioned above</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_loopback_mic" added="1483496636"><![CDATA[<title>Loopback Mic</title><info>Weather or not the sound should be also played back in the speakers/headphones during recording</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_show_menu" added="1483496636"><![CDATA[<title>Show Menu</title><info>weather or not the bottom menu in the HDFVR should show, some people choose to control the HDFVR via JavaScript and they do not need the menu</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_show_timer" added="1483496636"><![CDATA[<title>Show Timer</title><info>Show or hides the timer</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_show_sound_bar" added="1483496636"><![CDATA[<title>Show Sound Bar</title><info>Shows or hides the sound bar</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_flip_image_horizontally" added="1483496636"><![CDATA[<title>Flip Image Horizontally</title><info>Shows the webcam feed flipped horizontally. The actual video file (.flv or .mp4) will not contain a flipped image.</info>]]></phrase>
+		<phrase var_name="setting_hdfvr_hide_play_button" added="1483496636"><![CDATA[<title>Hide Play Button</title><info>This controls whether or not the play/pause button is visible in the controls menu of HDFVR</info>]]></phrase>
+		<phrase var_name="tr" added="1483496636">Top Right Corner</phrase>
+		<phrase var_name="tl" added="1483496636">Top Left Corner</phrase>
+		<phrase var_name="cen" added="1483496636">Center</phrase>
+		<phrase var_name="user_setting_hdfvr_quality_url" added="1483496636">Audio / Video Quality</phrase>
+		<phrase var_name="user_setting_hdfvr_max_recording_time" added="1483496636">Max Recording Time
+
+The maximum recording time in seconds</phrase>
+		<phrase var_name="user_setting_hdfvr_record_again" added="1483496636">Record Again
+
+If set to true the user will be able to record again and again until he is happy with the result. If set to false he only has 1 shot!</phrase>
+		<phrase var_name="user_setting_hdfvr_overlay_path" added="1483496636">Overlay Path
+
+Realtive URL path to the image to be shown as overlay</phrase>
+		<phrase var_name="user_setting_hdfvr_enable_pause_while_recording" added="1483496636">Enable Pause While Recording
+
+This controls whether or not HDFVR can be paused/resumed during a recording.</phrase>
+	</phrases>
+	<user_group_settings>
+		<setting is_admin_setting="0" module_id="hdfvr" type="boolean" admin="0" user="0" guest="0" staff="0" module="hdfvr" ordering="5">hdfvr_enable_pause_while_recording</setting>
+		<setting is_admin_setting="0" module_id="hdfvr" type="string" admin="fullStar.png" user="fullStar.png" guest="fullStar.png" staff="fullStar.png" module="hdfvr" ordering="4">hdfvr_overlay_path</setting>
+		<setting is_admin_setting="0" module_id="hdfvr" type="integer" admin="120" user="120" guest="120" staff="120" module="hdfvr" ordering="3">hdfvr_max_recording_time</setting>
+		<setting is_admin_setting="0" module_id="hdfvr" type="boolean" admin="1" user="1" guest="1" staff="1" module="hdfvr" ordering="2">hdfvr_record_again</setting>
+		<setting is_admin_setting="0" module_id="hdfvr" type="string" admin="320x240x30x90.xml" user="320x240x30x90.xml" guest="320x240x30x90.xml" staff="320x240x30x90.xml" module="hdfvr" ordering="1">hdfvr_quality_url</setting>
+	</user_group_settings>
+</module>

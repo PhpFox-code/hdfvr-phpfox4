@@ -1,0 +1,12 @@
+#hdfvr-record-video {
+	background:url(../../../images/video_icon.png) no-repeat center left;
+}
+.hdfvr-video-recorder-wrapper {
+	display:none;
+}
+.hdfvr-error-msg {
+	border:1px solid red !important;
+	padding:10px;
+	margin-bottom:10px;
+	color:red;
+}
